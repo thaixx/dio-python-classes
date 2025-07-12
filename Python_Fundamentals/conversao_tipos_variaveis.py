@@ -5,7 +5,8 @@ print(preco)  # Exibindo o valor da variável preco
 preco = float(preco)  # Convertendo inteiro para float
 print(type(preco))  # Exibindo o tipo da variável preco após conversão
 print(preco)  # Exibindo o valor da variável preco após conversão
-
+#converte numero de um casa decimal pra duas casas decimais
+preco = round(preco, 2)  # Arredondando o valor para
 
 texto = f"idade {idade} preco {preco}"
 print(texto)  # Exibindo o texto formatado com idade e preco
