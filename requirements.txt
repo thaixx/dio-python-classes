@@ -2,3 +2,5 @@ fastapi
 uvicorn
 sqlalchemy
 fastapi-pagination
+pytest
+
